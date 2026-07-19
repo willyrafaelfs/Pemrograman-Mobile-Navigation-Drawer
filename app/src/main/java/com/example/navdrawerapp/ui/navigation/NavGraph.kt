@@ -44,8 +44,15 @@ fun NavGraph(
         composable(route = Screen.Home.route) {
             HomeScreen(
                 onNavigateToScreen = { screen ->
-                    // Navigasi ke screen yang dipilih dari drawer
-                    navController.navigate(screen.route)
+                    // Navigasi ke screen tujuan, pastikan Home tetap ada di backstack
+                    navController.navigate(screen.route) {
+                        // Jika kembali ke home, bersihkan stack agar tidak menumpuk
+                        popUpTo(Screen.Home.route) {
+                            saveState = true
+                        }
+                        launchSingleTop = true
+                        restoreState = true
+                    }
                 }
             )
         }
