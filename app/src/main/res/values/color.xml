@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warna Utama (Primary) -->
+    <color name="primary">#2E7D32</color>
+    <color name="primary_dark">#1B5E20</color>
+    <color name="primary_light">#4CAF50</color>
+
+    <!-- Warna Sekunder (Secondary) -->
+    <color name="secondary">#FF6F00</color>
+    <color name="secondary_dark">#E65100</color>
+
+    <!-- Warna Background -->
+    <color name="background_main">#F5F5F5</color>
+    <color name="background_drawer">#FFFFFF</color>
+    <color name="background_screen">#FAFAFA</color>
+
+    <!-- Warna Teks -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Warna Top App Bar -->
+    <color name="top_bar_background">#2E7D32</color>
+    <color name="top_bar_content">#FFFFFF</color>
+
+    <!-- Warna Drawer -->
+    <color name="drawer_header_background">#1B5E20</color>
+    <color name="drawer_header_text">#FFFFFF</color>
+    <color name="drawer_item_selected">#E8F5E9</color>
+    <color name="drawer_item_selected_text">#2E7D32</color>
+    <color name="drawer_item_unselected_text">#424242</color>
+    <color name="drawer_divider">#E0E0E0</color>
+
+    <!-- Warna Konten Area -->
+    <color name="content_text">#333333</color>
+    <color name="content_card_background">#FFFFFF</color>
+    <color name="content_card_border">#E0E0E0</color>
+
+    <!-- Warna Icon -->
+    <color name="icon_active">#2E7D32</color>
+    <color name="icon_inactive">#9E9E9E</color>
+</resources>
