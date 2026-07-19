@@ -61,17 +61,17 @@ NavDrawerApp/
 
 | **Menu Utama** | **Navigation Drawer** |
 | :---: | :---: |
-| ![Menu Utama](screenshots/home.jpg) | ![Drawer](screenshots/drawer.jpg) |
+| <img src="screenshots/home.jpg" width="200"> | <img src="screenshots/drawer.jpg" width="200"> |
 | *Halaman selamat datang saat aplikasi pertama kali dibuka.* | *Panel samping dengan avatar, menu berikon, dan badge aktif.* |
 
 | **Screen 1** | **Screen 2** | **Screen 3** |
 | :---: | :---: | :---: |
-| ![Screen 1](screenshots/screen1.jpg) | ![Screen 2](screenshots/screen2.jpg) | ![Screen 3](screenshots/screen3.jpg) |
+| <img src="screenshots/screen1.jpg" width="180"> | <img src="screenshots/screen2.jpg" width="180"> | <img src="screenshots/screen3.jpg" width="180"> |
 | *Konten terstruktur (Judul, Deskripsi, Button) tema hijau.* | *Konten terstruktur (Judul, Deskripsi, Button) tema hijau.* | *Konten terstruktur (Judul, Deskripsi, Button) tema hijau.* |
 
 | **Screen 4** | **Screen 5** |
 | :---: | :---: |
-| ![Screen 4](screenshots/screen4.jpg) | ![Screen 5](screenshots/screen5.jpg) |
+| <img src="screenshots/screen4.jpg" width="180"> | <img src="screenshots/screen5.jpg" width="180"> |
 | *Konten terstruktur (Judul, Deskripsi, Button) tema hijau.* | *Konten terstruktur (Judul, Deskripsi, Button) tema hijau.* |
 
 ---

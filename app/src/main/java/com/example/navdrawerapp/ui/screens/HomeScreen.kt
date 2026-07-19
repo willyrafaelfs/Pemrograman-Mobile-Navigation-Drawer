@@ -52,13 +52,13 @@ fun HomeScreen(
         // Isi dari panel drawer (menu-menu)
         drawerContent = {
             DrawerContent(
-                currentRoute = null,     // Di Home, tidak ada menu yang aktif
+                currentRoute = Screen.Home.route,
                 onMenuClick = { screen ->
                     // Ketika menu diklik:
                     scope.launch {
-                        drawerState.close()          // 1. Tutup drawer dulu
+                        drawerState.close()          // 1. Tutup drawer dulu (suspend)
+                        onNavigateToScreen(screen)   // 2. Baru kemudian navigasi
                     }
-                    onNavigateToScreen(screen)       // 2. Navigasi ke screen tujuan
                 }
             )
         }

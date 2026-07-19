@@ -7,6 +7,7 @@ import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
@@ -41,33 +42,35 @@ fun DrawerContent(
     modifier: Modifier = Modifier
 ) {
     // Daftar semua menu yang ditampilkan di drawer
-    val menuItems = listOf(
-        DrawerMenuItem(
-            screen = Screen.Screen1,
-            icon = { Icon(Icons.Default.Home, contentDescription = "Screen 1") },
-            label = "Screen 1"
-        ),
-        DrawerMenuItem(
-            screen = Screen.Screen2,
-            icon = { Icon(Icons.AutoMirrored.Filled.List, contentDescription = "Screen 2") },
-            label = "Screen 2"
-        ),
-        DrawerMenuItem(
-            screen = Screen.Screen3,
-            icon = { Icon(Icons.Default.Settings, contentDescription = "Screen 3") },
-            label = "Screen 3"
-        ),
-        DrawerMenuItem(
-            screen = Screen.Screen4,
-            icon = { Icon(Icons.Default.Person, contentDescription = "Screen 4") },
-            label = "Screen 4"
-        ),
-        DrawerMenuItem(
-            screen = Screen.Screen5,
-            icon = { Icon(Icons.Default.Info, contentDescription = "Screen 5") },
-            label = "Screen 5"
+    val menuItems = remember {
+        listOf(
+            DrawerMenuItem(
+                screen = Screen.Screen1,
+                icon = { Icon(Icons.Default.Home, contentDescription = "Screen 1") },
+                label = "Screen 1"
+            ),
+            DrawerMenuItem(
+                screen = Screen.Screen2,
+                icon = { Icon(Icons.AutoMirrored.Filled.List, contentDescription = "Screen 2") },
+                label = "Screen 2"
+            ),
+            DrawerMenuItem(
+                screen = Screen.Screen3,
+                icon = { Icon(Icons.Default.Settings, contentDescription = "Screen 3") },
+                label = "Screen 3"
+            ),
+            DrawerMenuItem(
+                screen = Screen.Screen4,
+                icon = { Icon(Icons.Default.Person, contentDescription = "Screen 4") },
+                label = "Screen 4"
+            ),
+            DrawerMenuItem(
+                screen = Screen.Screen5,
+                icon = { Icon(Icons.Default.Info, contentDescription = "Screen 5") },
+                label = "Screen 5"
+            )
         )
-    )
+    }
 
     // Layout utama drawer
     ModalDrawerSheet(
