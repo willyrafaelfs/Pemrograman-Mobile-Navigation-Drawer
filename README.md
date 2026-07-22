@@ -1,4 +1,4 @@
-# NavDrawerApp - Simulasi Navigation Drawer
+# NavDrawer - Simulasi Navigation Drawer
 ## Android Jetpack Compose Project
 
 ### Identitas Mahasiswa
