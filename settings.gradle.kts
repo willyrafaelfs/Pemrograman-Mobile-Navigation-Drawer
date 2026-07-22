@@ -18,5 +18,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "NavDrawerApp"
+rootProject.name = "NavDrawer"
 include(":app")
