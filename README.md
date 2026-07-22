@@ -1,7 +1,7 @@
 # NavDrawerApp - Simulasi Navigation Drawer
 ## Android Jetpack Compose Project
 
-### Identitas Pengembang
+### Identitas Mahasiswa
 - **Nama**: Willy Rafael F. Silalahi
 - **NIM**: 23083000168
 - **Kelas**: 6A2
